@@ -3,7 +3,7 @@
 
 # defaults
 SIM ?= icarus
-WAVES ?= 1
+FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 PROJECT_SOURCES += tt_um_kercrafter_leds_racer.v
